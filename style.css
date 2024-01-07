@@ -8,7 +8,7 @@ body {
 
   }
 
-  * { border: 1px solid red; } 
+  * { border: 1px solid red; } *
 
 .headers {
     display: flex;
@@ -58,7 +58,7 @@ ul {
     flex-direction: column;
     padding:50px;
     align-items: center;
-    text-align: center;
+    
     
 }
 
@@ -70,9 +70,10 @@ ul {
 }
 .mid_pics {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     padding: 30px 150px;
+    
 
 }
 .mid_pic {
@@ -84,10 +85,11 @@ ul {
 }
 
 .mid_text {
-    font-size: x-small;
-    gap: 20px 50px;
+    font-size: medium;
+    font-weight:bold;
+    
     display:flex;
-    padding: 2px 15px;
+    justify-content: space-around;
     
 }
 
@@ -146,7 +148,7 @@ button {
 }
 
 .bottom_text_small {
-    font-size: x-small;
+    font-size: small;
 }
 
 .footer {
