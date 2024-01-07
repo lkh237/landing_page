@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow:scroll;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+
+.headers {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display:flex;
+    gap: 15px;
+    list-style-type: none;
+
+}
+
