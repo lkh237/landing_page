@@ -1,16 +1,23 @@
 body {
     margin: 0;
-    width: 100vw;
+    width:auto;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
+
   }
+
+  * { border: 1px solid red; } 
 
 .headers {
     display: flex;
     justify-content: space-around;
+    background-color:#1F2937;
+    color: white;
+    
 }
+
 
 ul {
     display:flex;
@@ -22,8 +29,10 @@ ul {
 .top_content {
     display:flex;
     justify-content: space-between;
-    margin:50px;
+    padding:50px;
     align-items: center;
+    background-color:#1F2937;
+    color: white;
     
 }
 
@@ -31,10 +40,17 @@ ul {
     width:max-content;
     height:fit-content;
 }
-
+.top_content_left {
+    padding: 20px;
+    margin: 20px;
+}
 .title {
     font-size: xxx-large;
     font-weight: bold;
+}
+
+.top_text {
+   
 }
 
 .middle_content {
@@ -42,27 +58,104 @@ ul {
     flex-direction: column;
     padding:50px;
     align-items: center;
+    text-align: center;
     
 }
 
 .mid_header {
     font-size:x-large;
     padding: 30px;
+    font-weight:bold;
     
 }
 .mid_pics {
     display: flex;
-    gap: 50px;
-    
+    gap: 10px;
+    justify-content: center;
+    padding: 30px 150px;
 
+}
+.mid_pic {
+    border: 2px solid blue;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    margin:auto;
 }
 
 .mid_text {
     font-size: x-small;
-    gap: 20px;
+    gap: 20px 50px;
     display:flex;
-    flex-wrap: wrap;
+    padding: 2px 15px;
+    
 }
 
+.quote{
+    display:flex;
+    flex-direction: column;
+    padding:60px 150px;
+    background-color: #E5E7Eb;
+
+}
+
+.text{
+    display:flex;
+    align-items:center;
+    font-style: italic;
+    color:#3c4550;
+    font-size: 30px;
+}
+
+.name{
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.bottom {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 25px 90px;
+    margin: 50px 60px;
+    background-color: #3882f6 ;
+    color: white;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    display:flex;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-color: white;
+    text-align: center;
+    color: white;
+}
+
+.top_button {
+    border-color: #3882f6;
+}
+
+.bottom_text_bold {
+    font-weight: bold;
+    font-size:large;
+}
+
+.bottom_text_small {
+    font-size: x-small;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: x-small;
+    color: white;
+    background-color: #1F2937;
+}
 
 
