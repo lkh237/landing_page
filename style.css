@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow:scroll;
+    width: 100vw;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction:column;
@@ -18,4 +18,51 @@ ul {
     list-style-type: none;
 
 }
+
+.top_content {
+    display:flex;
+    justify-content: space-between;
+    margin:50px;
+    align-items: center;
+    
+}
+
+.top_pic {
+    width:max-content;
+    height:fit-content;
+}
+
+.title {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.middle_content {
+    display:flex;
+    flex-direction: column;
+    padding:50px;
+    align-items: center;
+    
+}
+
+.mid_header {
+    font-size:x-large;
+    padding: 30px;
+    
+}
+.mid_pics {
+    display: flex;
+    gap: 50px;
+    
+
+}
+
+.mid_text {
+    font-size: x-small;
+    gap: 20px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
 
